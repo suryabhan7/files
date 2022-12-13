@@ -1,0 +1,18 @@
+{
+  "name": "cleartripautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy_open": "cypress open",
+    "cy_run_chrome": "cypress run --browser chrome --headed",
+    "cy_run_safari": "cypress run --browser safari --headed",
+    "cy_run_firefox": "cypress run --browser firefox --headed"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.4.1"
+  }
+}
